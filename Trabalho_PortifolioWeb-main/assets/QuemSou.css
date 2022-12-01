@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #1b1b1b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: #ffffff;
+	border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(14, 92, 14);
+  }
+  
+  ::selection {
+	background-color: rgba(101, 24, 180, 1);
+  }
+
+
+body{
+    font-family: 'IBM+Plex+Mono', sans-serif;
+    background-color: rgb(22,22,22);
+    }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+}
+#Logo {
+    height: 90px;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+    #principal{
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border:5px solid;
+        border-radius: 10px;
+        border-color: rgb(14, 92, 14);
+    }
+
+    h1{
+    
+        font-family: 'Courier New';
+        color: rgb(74, 243, 74);
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 50px;
+
+    }
+
+    p{
+        padding: 40px;
+        font-family: 'Courier New';
+        color: rgb(114, 241, 114);
+        margin-top: 5px;
+
+    }
+
+    a{
+        font-family: 'Courier New';
+        color: rgb(83, 245, 83);
+    }
+
+    #sk8{
+
+        margin-left: 100px;
+        margin-top: 10px;
+
+    }
+
+    #sk8 > img {
+        border-radius: 10px;
+    }
+
+    #secundaria{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        gap: 20px;
+    }
+
+    .p2 {
+        border:5px solid;
+        border-color: rgb(14, 92, 14);
+        padding: 10px;
+        border-radius: 10px;
+        margin-right: 100px;
+        text-align: justify;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: small;
+        background-color: black;
+        height: 100px;
+    }
+
+    .Git {
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .ct_footer{
+
+        position: absolute;
+    }
+

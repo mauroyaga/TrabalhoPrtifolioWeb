@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(22,22,22);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;    
+}
+    
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(15,15,15);
+box-shadow: 0 0 1rem black;
+}
+
+img {
+    border-radius: 200px;
+}
+
+
+li{
+    color: rgb(21, 147, 21);
+    display: inline-block;
+    margin: 20px;
+    font-family:'Courier New';
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+a > li:hover {
+    color: red;
+    border-radius: 10px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+
+#principal{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 45px;
+}
+
+#principal h1{
+
+    color:green;
+    font-family: 'Courier New';
+    
+}
+
+#menu li{
+    font-size: 20px;
+}
+
+#secundaria{
+
+   margin: 20px;
+}
+
+
+footer{
+background-color:rgb(15,15,15);
+height: 100px;
+width: 100%;
+font-family: 'Courier New';
+position: static;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.containerF{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p {
+    padding-bottom: 40px;
+    color:  rgb(21, 147, 21);
+}

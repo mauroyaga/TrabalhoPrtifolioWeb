@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+display:  flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100%;
+background-image:url("/img/matrix_code.gif");
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: rgba(92, 91, 91, 0.74);
+    width: 500px;
+    border-radius: 10px;
+    padding-bottom:50px ;
+}
+
+section h2{
+    color: white;
+    font-size: 3 rem;
+    margin: 2rem;
+
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+form label{
+    color: white;
+    font-size: 17 px;
+    margin: 4px
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0,5;
+}
+
+form input:focus{
+    border-radius: 16px;
+    
+}
